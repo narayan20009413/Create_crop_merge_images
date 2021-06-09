@@ -25,7 +25,7 @@ cv2.waitKey()
 cv2.destroyAllWindows()
 
 #############swaping the faces of two images###########:
-import numpy as np
+import numpy 
 temp_boy1=boy1.tolist()
 boy1[3:290,120:350]=boy2[3:290,120:350]
 boy2[3:290,120:350]=numpy.array(temp_boy1,dtype='uint8')[3:290,120:350]
